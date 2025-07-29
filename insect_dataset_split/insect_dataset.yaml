@@ -1,0 +1,11 @@
+# data.yaml
+# Paths are relative to this file's location
+
+train: ./images/train
+val: ./images/val
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['insect']
