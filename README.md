@@ -3,16 +3,16 @@
 A comprehensive AI-powered solution for agricultural pest and disease detection using computer vision and tabular data fusion.
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Performance](#model-performance)
-- [Project Structure](#project-structure)
-- [Results](#results)
-- [Contributing](#contributing)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Architecture](#-architecture)
+- [Dataset](#-dataset)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Model Performance](#-model-performance)
+- [Project Structure](#-project-structure)
+- [Results](#-results)
+- [Contributing](#-contributing)
 
 
 ## 🔍 Overview
