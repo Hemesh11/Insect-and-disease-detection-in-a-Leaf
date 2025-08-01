@@ -47,15 +47,15 @@ The system helps farmers identify crop threats through either visual inspection 
 ## 🏗️ Architecture
 
 ### System overview showing how YOLO and TabNet outputs are fused.
-
-Input Layer
-├── Image Input → YOLOv8s → Confidence Scores
-└── Symptom Input → TabNet → Probability Scores
-                        ↓
-                 Fusion Layer (MLP)
-                        ↓
-              Final Classification Output
-
+  ```
+  Input Layer
+  ├── Image Input → YOLOv8s → Confidence Scores
+  └── Symptom Input → TabNet → Probability Scores
+                          ↓
+                   Fusion Layer (MLP)
+                          ↓
+                Final Classification Output
+  ```
 
 ### Model Components:
 1. **YOLO Models**: 
