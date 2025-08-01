@@ -5,7 +5,7 @@ A comprehensive AI-powered solution for agricultural pest and disease detection 
 ## 📋 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
-- [Architecture](#-architecture)
+- [Architecture](#architecture)
 - [Dataset](#-dataset)
 - [Installation](#-installation)
 - [Usage](#-usage)
