@@ -44,7 +44,7 @@ The system helps farmers identify crop threats through either visual inspection 
 - Enhanced accuracy through complementary information
 - Real-time inference capability
 
-## 🏗️ Architecture
+## 🏗 Architecture
 
 ### System overview showing how YOLO and TabNet outputs are fused.
   ```
