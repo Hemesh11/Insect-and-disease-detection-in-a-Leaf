@@ -5,7 +5,7 @@ A comprehensive AI-powered solution for agricultural pest and disease detection 
 ## 📋 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
-- [Architecture](#architecture)
+- [Architecture](#-architecture)
 - [Dataset](#-dataset)
 - [Installation](#-installation)
 - [Usage](#-usage)
@@ -47,7 +47,7 @@ The system helps farmers identify crop threats through either visual inspection 
 ## 🏗️ Architecture
 
 ### System overview showing how YOLO and TabNet outputs are fused.
-```
+
 Input Layer
 ├── Image Input → YOLOv8s → Confidence Scores
 └── Symptom Input → TabNet → Probability Scores
@@ -55,7 +55,7 @@ Input Layer
                  Fusion Layer (MLP)
                         ↓
               Final Classification Output
-```
+
 
 ### Model Components:
 1. **YOLO Models**: 
