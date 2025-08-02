@@ -3,16 +3,16 @@
 A comprehensive AI-powered solution for agricultural pest and disease detection using computer vision and tabular data fusion.
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model Performance](#model-performance)
-- [Project Structure](#project-structure)
-- [Results](#results)
-- [Contributing](#contributing)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Architecture](#-architecture)
+- [Dataset](#-dataset)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Model Performance](#-model-performance)
+- [Project Structure](#-project-structure)
+- [Results](#-results)
+- [Contributing](#-contributing)
 
 
 ## 🔍 Overview
@@ -44,17 +44,18 @@ The system helps farmers identify crop threats through either visual inspection 
 - Enhanced accuracy through complementary information
 - Real-time inference capability
 
-## 🏗️ Architecture
+## 🏗 Architecture
 
-```
-Input Layer
-├── Image Input → YOLOv8s → Confidence Scores
-└── Symptom Input → TabNet → Probability Scores
-                        ↓
-                 Fusion Layer (MLP)
-                        ↓
-              Final Classification Output
-```
+### System overview showing how YOLO and TabNet outputs are fused.
+  ```
+  Input Layer
+  ├── Image Input → YOLOv8s → Confidence Scores
+  └── Symptom Input → TabNet → Probability Scores
+                          ↓
+                   Fusion Layer (MLP)
+                          ↓
+                Final Classification Output
+  ```
 
 ### Model Components:
 1. **YOLO Models**: 
