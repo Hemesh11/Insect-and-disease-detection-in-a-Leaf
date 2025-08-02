@@ -23,7 +23,7 @@
 
 
 ## 📈 Detailed Metrics
-
+```
                Model  Accuracy  Precision  Recall  F1-Score  Specificity  ROC-AUC  PR-AUC
        YOLO (Insect)    0.8109     0.8109  1.0000    0.8956       0.0000   0.4382  0.7752
      TabNet (Insect)    0.7375     0.8208  0.8651    0.8424       0.1901   0.4947  0.7860
@@ -31,7 +31,7 @@
       YOLO (Disease)    0.7950     0.7950  1.0000    0.8858       0.0000   0.5468  0.8537
     TabNet (Disease)    0.7700     0.8054  0.9371    0.8663       0.1220   0.4508  0.7586
 Fusion MLP (Disease)    0.8000     0.8000  1.0000    0.8889       0.0000   0.5226  0.8631
-
+```
 ## 🎯 Key Achievements
 - ✅ Successful fusion of visual and symptom-based detection
 - ✅ Outperformed individual model components
